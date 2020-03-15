@@ -1,0 +1,38 @@
+
+.card {
+    height: 400px; /* Your height here */
+    overflow: hidden;
+}
+
+.card-image {
+    height: 250px; /* Your height here */
+    overflow: hidden;
+}
+
+.nav-wrapper{
+    background: azure;
+    color: blueviolet;
+}
+
+.nav{
+    background: darkslateblue;
+    color: blueviolet;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.container{
+    background: azure;
+    color: blueviolet;
+}
+
+.ilike-blue-container {
+  @extend .blue-text, .text-lighten-4;
+}
